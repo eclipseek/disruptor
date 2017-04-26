@@ -45,6 +45,4 @@ public interface WaitStrategy
      * Implementations should signal the waiting {@link EventProcessor}s that the cursor has advanced.
      */
     void signalAllWhenBlocking();
-
-    // test commit.
 }
